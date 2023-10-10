@@ -19,3 +19,4 @@ steps:
           - 'us-central1'
           - '--allow-unauthenticated'
           - '--set-env-vars DB_USERNAME=root,DB_PASSWORD=,DB_HOST=35.226.15.21,DB_PORT=3306,DB_NAME=golang_rest_api,SECRET=ayam12
+
