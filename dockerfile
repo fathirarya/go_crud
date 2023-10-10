@@ -9,6 +9,5 @@ RUN go build -o main
 FROM alpine:3.18
 WORKDIR /root/
 COPY --from=builder /app/main .
-COPY .env /root/.env
 EXPOSE 8080
 CMD ["./main"]
